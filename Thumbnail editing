@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thumbnail Maker - Rahul</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Thumbnail Maker</h1>
+    <p>Apna YouTube Thumbnail yahi banao aur Download karo</p>
+  </header>
+
+  <main class="container">
+
+    <section class="tools">
+      <h2>🎨 Tools</h2>
+
+      <label>Background Color</label>
+      <input type="color" id="bgColor" value="#111111" />
+
+      <label>Text Add karo</label>
+      <input type="text" id="textInput" placeholder="Apna text likho..." />
+      <button id="addTextBtn">➕ Add Text</button>
+
+      <label>Text Color</label>
+      <input type="color" id="textColor" value="#ffffff" />
+
+      <label>Text Size</label>
+      <input type="range" id="textSize" min="10" max="100" value="40" />
+
+      <label>Image Upload</label>
+      <input type="file" id="imgUpload" accept="image/*" />
+
+      <button id="downloadBtn">⬇ Download PNG</button>
+      <button id="clearBtn" class="danger">🗑 Clear</button>
+    </section>
+
+    <section class="editor">
+      <h2>🖼 Thumbnail Canvas</h2>
+      <div id="canvasArea">
+        <canvas id="thumbCanvas" width="1280" height="720"></canvas>
+      </div>
+      <p class="hint">Tip: Text/Image ko mouse se drag karke move karo</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

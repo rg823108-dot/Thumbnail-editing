@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Growth Hub | Free Genuine YouTube Growth</title>
+  <meta name="description" content="YouTube channel grow karne ke genuine free tips, tools aur promotion. Title, Tags, Description generator + best upload time." />
+  <style>
+    :root{
+      --bg:#0b0f19;
+      --card:#121a2a;
+      --card2:#0f1626;
+      --text:#eaf0ff;
+      --muted:#a8b3cf;
+      --brand:#ff2d55;
+      --brand2:#7c3aed;
+      --good:#22c55e;
+      --warn:#f59e0b;
+      --line:rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+    body{background:radial-gradient(900px 600px at 20% 0%, rgba(124,58,237,.25), transparent 55%),
+         radial-gradient(900px 600px at 80% 0%, rgba(255,45,85,.18), transparent 55%),
+         var(--bg); color:var(--text);}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1150px;margin:auto;padding:18px}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+    .logo{display:flex;gap:10px;align-items:center;font-weight:800;font-size:18px}
+    .badge{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand2));
+      display:grid;place-items:center;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .menu{display:flex;gap:14px;align-items:center}
+    .menu a{padding:10px 12px;border-radius:12px;color:var(--muted);border:1px solid transparent}
+    .menu a:hover{border-color:var(--line);color:var(--text);background:rgba(255,255,255,.03)}
+    .btn{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      padding:11px 14px;border-radius:14px;font-weight:700;border:none;cursor:pointer;
+      box-shadow:0 15px 40px rgba(0,0,0,.35)
+    }
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:center;margin-top:16px}
+    .heroCard{
+      padding:22px;border-radius:22px;background:linear-gradient(180deg, rgba(255,255,255,.04), transparent),
+      var(--card); border:1px solid var(--line);
+    }
+    h1{font-size:42px;line-height:1.05;margin-bottom:10px}
+    .sub{color:var(--muted);font-size:16px;line-height:1.6}
+    .pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .pill{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--muted);font-size:13px}
+    .note{
+      margin-top:14px;padding:12px 14px;border-radius:16px;background:rgba(34,197,94,.08);
+      border:1px solid rgba(34,197,94,.25); color:#d7ffe4;font-size:14px
+    }
+    .side{
+      padding:18px;border-radius:22px;background:linear-gradient(180deg, rgba(255,255,255,.04), transparent),
+      var(--card2); border:1px solid var(--line);
+    }
+    .side h3{font-size:18px;margin-bottom:10px}
+    .side ul{margin-left:18px;color:var(--muted);line-height:1.8}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .card{
+      padding:16px;border-radius:20px;background:rgba(255,255,255,.03);
+      border:1px solid var(--line); transition:.2s transform;
+    }
+    .card:hover{transform:translateY(-4px)}
+    .card h4{margin:10px 0 6px;font-size:16px}
+    .card p{color:var(--muted);font-size:13px;line-height:1.6}
+    .icon{
+      width:42px;height:42px;border-radius:14px;
+      background:linear-gradient(135deg, rgba(255,45,85,.18), rgba(124,58,237,.18));
+      display:grid;place-items:center;border:1px solid var(--line);font-weight:900
+    }
+    .section{margin-top:26px}
+    .sectionTitle{display:flex;justify-content:space-between;align-items:end;gap:10px}
+    .sectionTitle h2{font-size:24px}
+    .sectionTitle span{color:var(--muted);font-size:13px}
+    .tools{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+    .toolBox{
+      padding:16px;border-radius:20px;background:rgba(255,255,255,.03);border:1px solid var(--line)
+    }
+    .toolBox h3{font-size:16px;margin-bottom:8px}
+    label{display:block;color:var(--muted);font-size:12px;margin:10px 0 6px}
+    input,textarea,select{
+      width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);
+      background:rgba(0,0,0,.25);color:var(--text);outline:none
+    }
+    textarea{min-height:100px;resize:vertical}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .out{
+      margin-top:10px;padding:12px;border-radius:16px;border:1px dashed rgba(255,255,255,.16);
+      background:rgba(0,0,0,.22);color:var(--text);white-space:pre-wrap;font-size:13px;line-height:1.55
+    }
+    .small{font-size:12px;color:var(--muted);margin-top:8px}
+    .footer{margin:30px 0 10px;color:var(--muted);text-align:center;font-size:13px}
+    .warnBox{
+      margin-top:14px;padding:12px 14px;border-radius:16px;background:rgba(245,158,11,.10);
+      border:1px solid rgba(245,158,11,.25); color:#fff3d6;font-size:13px;line-height:1.55
+    }
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+      h1{font-size:34px}
+      .grid{grid-template-columns:1fr}
+      .tools{grid-template-columns:1fr}
+      .menu{display:none}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="nav">
+      <div class="logo">
+        <div class="badge">YT</div>
+        <div>
+          <div>YouTube Growth Hub</div>
+          <div style="color:var(--muted);font-size:12px;font-weight:600">Genuine • Safe • Free Tools</div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <a href="#tools">Free Tools</a>
+        <a href="#promo">Promotion</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#promo">Promote Channel</a>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="heroCard">
+        <h1>Free YouTube Growth<br/> (100% Genuine)</h1>
+        <p class="sub">
+          Ye website aapko <b>real audience</b> lane ke liye help karegi —  
+          <b>fake subscribe / fake views</b> nahi.  
+          Yaha tools milenge: Title, Tags, Description generator + best upload time.
+        </p>
+
+        <div class="pills">
+          <div class="pill">✅ No Fake Views</div>
+          <div class="pill">✅ No Bots</div>
+          <div class="pill">✅ Monetization Safe</div>
+          <div class="pill">🔥 Creator Friendly</div>
+        </div>
+
+        <div class="note">
+          ⭐ Tip: Real growth ke liye “Audience Retention + CTR + Consistency” sabse important hai.
+        </div>
+
+        <div class="warnBox">
+          ⚠️ Note: “Free subscribe / free views / free likes” artificially dena YouTube policy violation hai.  
+          Is website ka purpose: <b>genuine growth</b> + <b>real promotion</b>.
+        </div>
+      </div>
+
+      <div class="side">
+        <h3>📌 What you will get</h3>
+        <ul>
+          <li>Title Generator (Hindi + English)</li>
+          <li>Tags Generator</li>
+          <li>Description Generator</li>
+          <li>Best Upload Time Planner</li>
+          <li>Channel Promotion Page</li>
+          <li>Contact Form</li>
+        </ul>
+        <div style="margin-top:14px">
+          <button class="btn" onclick="scrollToSection('tools')">Use Free Tools</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="grid">
+      <div class="card">
+        <div class="icon">🎯</div>
+        <h4>Real Views Strategy</h4>
+        <p>Shorts + Long video combo se real traffic aata hai. CTR aur retention improve hota hai.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h4>Fast SEO Tools</h4>
+        <p>Auto title, tags, description — bas topic likho aur copy paste kar do.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h4>Monetization Safe</h4>
+        <p>Yaha koi fake subscribe/views nahi. Safe methods hi use honge.</p>
+      </div>
+    </div>
+
+    <!-- TOOLS -->
+    <div class="section" id="tools">
+      <div class="sectionTitle">
+        <h2>🔥 Free Tools</h2>
+        <span>Copy-paste ready content</span>
+      </div>
+
+      <div class="tools">
+        <!-- Title Generator -->
+        <div class="toolBox">
+          <h3>1) Title Generator</h3>
+          <label>Video Topic</label>
+          <input id="topicTitle" placeholder="Example: Minecraft Survival Episode 24 new house build" />
+          <label>Category</label>
+          <select id="category">
+            <option value="Gaming">Gaming</option>
+            <option value="Vlog">Vlog</option>
+            <option value="Tech">Tech</option>
+            <option value="Education">Education</option>
+            <option value="Other">Other</option>
+          </select>
+          <button class="btn" style="margin-top:12px" onclick="generateTitles()">Generate Titles</button>
+          <div class="out" id="titleOut">Yaha titles aayenge…</div>
+          <div class="small">Tip: Title me number + emotion + keyword use karo.</div>
+        </div>
+
+        <!-- Tags Generator -->
+        <div class="toolBox">
+          <h3>2) Tags Generator</h3>
+          <label>Main Keyword</label>
+          <input id="keyword" placeholder="Example: minecraft survival" />
+          <label>Language</label>
+          <select id="lang">
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+          </select>
+          <button class="btn" style="margin-top:12px" onclick="generateTags()">Generate Tags</button>
+          <div class="out" id="tagsOut">Yaha tags aayenge…</div>
+          <div class="small">Tip: 15-25 tags best hote hain.</div>
+        </div>
+
+        <!-- Description Generator -->
+        <div class="toolBox">
+          <h3>3) Description Generator</h3>
+          <label>Video Topic</label>
+          <input id="descTopic" placeholder="Example: Free Fire CS match gameplay" />
+          <label>Your Channel Name</label>
+          <input id="channelName" placeholder="Example: Rahul Gamer" />
+          <button class="btn" style="margin-top:12px" onclick="generateDescription()">Generate Description</button>
+          <div class="out" id="descOut">Yaha description aayega…</div>
+        </div>
+
+        <!-- Best Upload Time -->
+        <div class="toolBox">
+          <h3>4) Best Upload Time (Genuine Planner)</h3>
+          <label>Audience Type</label>
+          <select id="aud">
+            <option value="Students">Students</option>
+            <option value="Working">Working People</option>
+            <option value="Mixed">Mixed</option>
+          </select>
+          <label>Content Type</label>
+          <select id="ctype">
+            <option value="Long Video">Long Video</option>
+            <option value="Shorts">Shorts</option>
+          </select>
+          <button class="btn" style="margin-top:12px" onclick="bestTime()">Suggest Time</button>
+          <div class="out" id="timeOut">Yaha time suggestion aayega…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROMOTION -->
+    <div class="section" id="promo">
+      <div class="sectionTitle">
+        <h2>📢 Promote Your Channel</h2>
+        <span>Real promotion (no bots)</span>
+      </div>
+
+      <div class="tools">
+        <div class="toolBox">
+          <h3>Channel Promotion Card</h3>
+          <label>Your Channel Link</label>
+          <input id="channelLink" placeholder="https://www.youtube.com/@yourchannel" />
+          <label>Channel About (1 line)</label>
+          <input id="channelAbout" placeholder="Example: Daily Minecraft Survival & Funny Moments" />
+          <button class="btn" style="margin-top:12px" onclick="createPromo()">Create Promo Text</button>
+          <div class="out" id="promoOut">Yaha promotion text aayega…</div>
+          <div class="small">Is text ko WhatsApp, Facebook groups, Telegram me share kar sakte ho (spamming nahi).</div>
+        </div>
+
+        <div class="toolBox">
+          <h3>Subscribe Button (Your Channel)</h3>
+          <p class="small">Neeche link me apna channel id set karo:</p>
+          <div class="out">
+            Example: https://www.youtube.com/@yourchannel?sub_confirmation=1
+          </div>
+          <button class="btn" style="margin-top:12px" onclick="openSubscribe()">Open Subscribe Link</button>
+          <div class="small">Ye genuine hai — real log subscribe karenge tabhi count hoga.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
+      <div class="sectionTitle">
+        <h2>📩 Contact</h2>
+        <span>Simple form (demo)</span>
+      </div>
+
+      <div class="toolBox">
+        <div class="row">
+          <div>
+            <label>Your Name</label>
+            <input id="name" placeholder="Your name" />
+          </div>
+          <div>
+            <label>Email / WhatsApp</label>
+            <input id="email" placeholder="email or number" />
+          </div>
+        </div>
+        <label>Message</label>
+        <textarea id="msg" placeholder="Write message..."></textarea>
+        <button class="btn" style="margin-top:12px" onclick="sendMsg()">Send Message</button>
+        <div class="out" id="contactOut">Message status…</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span id="year"></span> YouTube Growth Hub • Built for Genuine Creators ❤️
+    </div>
+  </div>
+
+<script>
+  document.getElementById("year").innerText = new Date().getFullYear();
+
+  function scrollToSection(id){
+    document.getElementById(id).scrollIntoView({behavior:"smooth"});
+  }
+
+  function generateTitles(){
+    const topic = document.getElementById("topicTitle").value.trim();
+    const cat = document.getElementById("category").value;
+    if(!topic){ document.getElementById("titleOut").innerText="❌ Pehle topic likho."; return; }
+
+    const titles = [
+      `🔥 ${topic} | ${cat} Video (Must Watch)`,
+      `😱 ${topic} | Full ${cat} Gameplay / Tutorial`,
+      `Top 1 Trick! ${topic} | Hindi`,
+      `${topic} | New Episode | OP Moments`,
+      `Aaj Kiya ${topic} 😍 | ${cat} Challenge`,
+      `Best Part! ${topic} | Full Video`,
+      `Noob To Pro: ${topic} | ${cat}`,
+      `Finally! ${topic} | Crazy Result`,
+    ];
+
+    document.getElementById("titleOut").innerText = titles.map((t,i)=>`${i+1}. ${t}`).join("\n");
+  }
+
+  function generateTags(){
+    const key = document.getElementById("keyword").value.trim();
+    const lang = document.getElementById("lang").value;
+    if(!key){ document.getElementById("tagsOut").innerText="❌ Pehle keyword likho."; return; }
+
+    let tags = [
+      key, `${key} video`, `${key} hindi`, `${key} tips`, `${key} tutorial`,
+      `${key} gameplay`, `${key} new`, `${key} 2026`, `${key} best`,
+      "youtube shorts", "youtube long video", "viral", "trending", "new video"
+    ];
+
+    if(lang==="Hindi"){
+      tags.push("हिंदी वीडियो","नई वीडियो","ट्रेंडिंग वीडियो","यूट्यूब ग्रोथ");
+    } else {
+      tags.push("youtube growth","best content","subscribe");
+    }
+
+    document.getElementById("tagsOut").innerText = tags.join(", ");
+  }
+
+  function generateDescription(){
+    const topic = document.getElementById("descTopic").value.trim();
+    const ch = document.getElementById("channelName").value.trim();
+    if(!topic || !ch){ document.getElementById("descOut").innerText="❌ Topic aur channel name dono likho."; return; }
+
+    const desc = `🔥 Welcome to ${ch}!
+
+Aaj ki video: ${topic}
+
+✅ Video pasand aaye to LIKE karo
+✅ Channel ko SUBSCRIBE karo
+✅ Comment me apni opinion zaroor likho
+
+📌 Follow for more videos:
+- Daily Upload / Weekly Upload
+- New Challenges
+- Funny Moments
+
+#youtube #trending #viral #${topic.replaceAll(" ","")}`;
+
+    document.getElementById("descOut").innerText = desc;
+  }
+
+  function bestTime(){
+    const aud = document.getElementById("aud").value;
+    const type = document.getElementById("ctype").value;
+
+    let result = "";
+    if(type==="Long Video"){
+      if(aud==="Students") result = "⏰ Best Time: 6:30 PM – 9:30 PM (School/Coaching ke baad)";
+      if(aud==="Working") result = "⏰ Best Time: 7:30 PM – 10:30 PM (Office ke baad)";
+      if(aud==="Mixed") result = "⏰ Best Time: 7:00 PM – 9:00 PM (Most common prime time)";
+    } else {
+      if(aud==="Students") result = "⏰ Best Time: 12:30 PM – 2:00 PM & 7:00 PM – 9:00 PM";
+      if(aud==="Working") result = "⏰ Best Time: 8:00 AM – 9:30 AM & 8:00 PM – 10:00 PM";
+      if(aud==="Mixed") result = "⏰ Best Time: 1:00 PM – 2:00 PM & 8:00 PM – 10:00 PM";
+    }
+
+    result += "\n\n✅ Tip: Apne YouTube Analytics me ‘When your viewers are on YouTube’ check karo.";
+    document.getElementById("timeOut").innerText = result;
+  }
+
+  function createPromo(){
+    const link = document.getElementById("channelLink").value.trim();
+    const about = document.getElementById("channelAbout").value.trim();
+    if(!link || !about){ document.getElementById("promoOut").innerText="❌ Link aur about dono likho."; return; }
+
+    const promo = `🔥 Hey friends!
+Main apna YouTube channel promote kar raha hoon 😊
+
+📌 Channel: ${link}
+🎥 Content: ${about}
+
+Agar aapko content pasand aaye to SUBSCRIBE zaroor karna ❤️
+Thanks 🙏`;
+
+    document.getElementById("promoOut").innerText = promo;
+  }
+
+  function openSubscribe(){
+    const link = document.getElementById("channelLink").value.trim();
+    if(!link){ alert("Pehle channel link daalo!"); return; }
+    const subLink = link.includes("?") ? link + "&sub_confirmation=1" : link + "?sub_confirmation=1";
+    window.open(subLink, "_blank");
+  }
+
+  function sendMsg(){
+    const n = document.getElementById("name").value.trim();
+    const e = document.getElementById("email").value.trim();
+    const m = document.getElementById("msg").value.trim();
+    if(!n || !e || !m){ document.getElementById("contactOut").innerText="❌ Please complete all fields."; return; }
+    document.getElementById("contactOut").innerText="✅ Message sent (demo). Real website me backend connect karna hoga.";
+  }
+</script>
+
+</body>
+</html>
